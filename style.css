@@ -70,12 +70,11 @@ nav > button:hover {
     font-weight: var(--fw-level-700);
 }
 
-nav, header {
+.header-nav {
     background-color: var(--Neutral-pale-cyan);
     background-image: url(images/bg-hero-desktop.svg);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: top left;
+    background-repeat: no-repeat center;
+    background-size:cover;
 }
 
 header {
@@ -257,7 +256,7 @@ footer {
 }
 
 .part4 i {
-    width: 30px;
+    width: 50px;
 }
 
 .copy-right {
@@ -298,11 +297,10 @@ footer {
         height: 18px;
     }
 
-    nav, header {
+    .header-nav {
         background-image: url(images/bg-hero-mobile.svg);
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-position: top right;
+        background-repeat: no-repeat center;
+        background-size:cover;
     }
 
     header {
